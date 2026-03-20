@@ -1,5 +1,5 @@
 {
-    "Format":"1.16.0",
+    "Format": "2.9.0",
     "Changes":[
         {
             "Action":"EditData",
@@ -239,12 +239,11 @@
             "FromFile":"Data/NPCs/Elliott.json"
         },
         {
-            "Action":"EditData",
-            "Target":"Data/NPCDispositions",
-            "Entries":{
-                "Elliott":"adult/polite/neutral/neutral/male/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/Astarion",
-                
-            }
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "Elliott": "Astarion"
+          }
         },
         {
             "Action":"EditData",
