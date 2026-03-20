@@ -1,0 +1,10 @@
+{
+   "Name": "Rustic Country Walls and Floors",
+   "Author": "DustBeauty",
+   "Version": "1.0",
+   "Description": "Non-replacement version of Rustic Country Walls and Floors",
+   "UniqueID": "RusticCountry.Walls_and_Floors",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

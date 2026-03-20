@@ -1,0 +1,43 @@
+{
+	"Format": "1.23.0",
+
+
+   "Changes": [ 
+      {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "DustWalls": {
+                    "ID": "DustWalls",
+                    "Texture": "Maps/DustWalls",
+                    "IsFlooring": false,
+                    "Count": 112
+                }
+            }
+        },  
+        {
+            "Action": "Load",
+            "Target": "Maps/DustWalls",
+            "FromFile": "assets/DustWalls.png"
+        },
+
+
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "DustFloors": {
+                    "ID": "DustFloors",
+                    "Texture": "Maps/DustFloors",
+                    "IsFlooring": true,
+                    "Count": 56
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/DustFloors",
+            "FromFile": "assets/DustFloors.png"
+        }
+	]
+}
