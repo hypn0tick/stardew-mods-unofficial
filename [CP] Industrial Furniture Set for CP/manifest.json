@@ -1,0 +1,12 @@
+{
+    "Name": "Industrial Furniture Set for CP",
+    "Author": "DustBeauty",
+    "Version": "1.0.2",
+    "Description": "Industrial Style furniture set for Custom Furniture",
+    "UniqueID": "DustBeauty.CP.IndustrialFurniture",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "1.26.0"
+    }
+}
