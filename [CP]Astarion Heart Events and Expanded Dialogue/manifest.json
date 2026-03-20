@@ -1,0 +1,13 @@
+	{
+	"Name": "[CP] Astarion Heart Events and Expanded Dialogue",
+	"Author": "kokiriforest",
+	"Version": "1.2.2",
+	"Description": "Adds heart events and additional Dialogue to Baldur's Valley for Astarion",
+	"UniqueID": "kokiriforest.AstarionHeartEvents",
+	"MinimumApiVersion": "4.0",
+	"MinimumGameVersion": "1.6",
+	"ContentPackFor":{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [ "Nexus:23236" ]
+}

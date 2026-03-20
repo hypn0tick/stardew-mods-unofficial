@@ -1,43 +1,34 @@
 {
-	"Format": "1.23.0",
+  "Format": "2.9.0",
 
-
-   "Changes": [ 
-      {
-            "Action": "EditData",
-            "Target": "Data/AdditionalWallpaperFlooring",
-            "Entries": {
-                "DustWalls": {
-                    "ID": "DustWalls",
-                    "Texture": "Maps/DustWalls",
-                    "IsFlooring": false,
-                    "Count": 112
-                }
-            }
-        },  
-        {
-            "Action": "Load",
-            "Target": "Maps/DustWalls",
-            "FromFile": "assets/DustWalls.png"
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/AdditionalWallpaperFlooring",
+      "Entries": {
+        "DustWalls": {
+          "ID": "DustWalls",
+          "Texture": "Mods/{{ModId}}/DustWalls",
+          "IsFlooring": false,
+          "Count": 112
         },
-
-
-        {
-            "Action": "EditData",
-            "Target": "Data/AdditionalWallpaperFlooring",
-            "Entries": {
-                "DustFloors": {
-                    "ID": "DustFloors",
-                    "Texture": "Maps/DustFloors",
-                    "IsFlooring": true,
-                    "Count": 56
-                }
-            }
-        },
-        {
-            "Action": "Load",
-            "Target": "Maps/DustFloors",
-            "FromFile": "assets/DustFloors.png"
+        "DustFloors": {
+          "ID": "DustFloors",
+          "Texture": "Mods/{{ModId}}/DustFloors",
+          "IsFlooring": true,
+          "Count": 56
         }
-	]
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/DustWalls",
+      "FromFile": "assets/DustWalls.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/DustFloors",
+      "FromFile": "assets/DustFloors.png"
+    }
+  ]
 }
