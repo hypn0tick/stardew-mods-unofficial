@@ -1,0 +1,109 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+
+		"Interior Structure" : {
+			"AllowValues" : "true, false",
+                        "Default": "true"
+		},		
+		"Include the Walnut Farmhouse" : {
+			"AllowValues" : "true, false",
+                        "Default": "true"
+		}
+        },
+
+	"Changes": [
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },	
+			"When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+			"FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },	
+			"When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },
+			"FromArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },	
+			"When" : {
+				"LocationName": "FarmHouse, Cabin",
+				"Include the Walnut Farmhouse": true
+			},
+		"Update": "OnLocationChange"
+		},
+			{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Cursors2.png",
+			"ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+			"FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 48, "Y": 144, "Width": 16, "Height": 48 },
+			"FromArea": { "X": 48, "Y": 144, "Width": 16, "Height": 48 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 0, "Y": 240, "Width": 16, "Height": 48 },
+			"FromArea": { "X": 0, "Y": 240, "Width": 16, "Height": 48 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 16, "Y": 256, "Width": 16, "Height": 32 },
+			"FromArea": { "X": 16, "Y": 256, "Width": 16, "Height": 32 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 32, "Y": 240, "Width": 32, "Height": 48 },
+			"FromArea": { "X": 32, "Y": 240, "Width": 32, "Height": 48 },
+			"When" : {
+				"Interior Structure" : "true"
+			}
+			}
+	]
+}

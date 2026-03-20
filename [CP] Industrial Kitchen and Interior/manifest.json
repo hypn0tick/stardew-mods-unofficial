@@ -1,0 +1,32 @@
+{
+   "Name": "Industrial Kitchen Interior",
+   "Author": "DustBeauty",
+   "Version": "2.0",
+   "Description": "Industrial Style Kitchen, Farmhouse Interior",
+   "UniqueID": "DustBeauty.IndustrialKitchen",
+   "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "Dependencies": [
+      {
+          "UniqueID": "DaisyNiko.EarthyInteriors",
+          "IsRequired": false
+      },
+      {
+         "UniqueID": "Lita.StarblueValley",
+         "IsRequired": false
+     },
+     {
+         "UniqueID": "grapeponta.VibrantPastoralRecolor",
+         "IsRequired": false
+     },
+     {
+         "UniqueID": "vamoosi.RosierColoredGlasses",
+         "IsRequired": false
+     },
+	 {
+		 "UniqueID": "DustBeauty.SeasonalGardernFarmhouse.v2",
+		 "IsRequired": false
+	 }
+   ]
+   }
