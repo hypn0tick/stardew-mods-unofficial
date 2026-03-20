@@ -1,0 +1,12 @@
+{
+  "Name": "(Unofficial 1.6 Update) Rustic Country Town Interior",
+	"Author": "DustBeauty and Kath40 (unofficial update)",
+	"Version": "1.0.0",
+	"UniqueID": "Hesper.RusticCountrysideTownInterior",
+    "Description": "An unofficial update for Rustic Country Town Interior by DustBeauty.",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+		},
+	"Dependencies": [],
+}
